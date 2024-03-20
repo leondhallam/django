@@ -10,3 +10,4 @@ def about(request):
 def contact(request):
     return render(request, 'itreporting/contact.html', {'title': 'Contact'})
 # Create your views here.
+
